@@ -58,7 +58,14 @@ Bigfoot sighting description wordcloud
 * NLP Algorithm discussion --- PCA or NMF for finding the most 'important features' or words of each type of report
 
 #### Multinomial Naive Bayes
-Text from the bigfoot descriptions was fit to a Naive Bayes model to predict if a sighting was a 'Class A' or 'Class B/C' sighting
+Text from the bigfoot descriptions was fit to a Naive Bayes model to predict if a sighting was a Class A or Class B/C.  Class A sightings are sightings where "clear sightings in circumstances where misinterpretation or misidentification of other animals can be ruled out with greater confidence".  On splitting the data set between Classes the length of the descriptions were compared in a histogram to show each have similar lengths:
+![Alt](./images/BF_observation_length_by_class.png)
+A test-train split was made (20/80) on the data set and the model performed with 80% accuracy on the test data.  After cleaning tokenizing the 75 words most likely to distinguish a Class A event were determined:
+![Alt](./images/hash_cloud_A_predictors.png)
+And Class B predictors:
+![Alt](./images/hash_cloud_B_predictors.png)
+
+1970: A family of bigfoot-like creatures called "zoobies" was observed on multiple occasions by a San Diego psychiatrist named Dr. Baddour
 
 ### ML Example 1 (include tuning / evaluation notes)
 
