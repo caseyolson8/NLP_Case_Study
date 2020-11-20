@@ -47,9 +47,9 @@ As you can see there seems to be some sort of trend happening with gigantic spik
 - Would have been nice to correlate shapes with time, date, or location
   
 <p align="center">
-  <img align="center" src="/images/ufos_wordcloud.png" width="1000" title="UFO Word Cloud">
+  <img align="center" src="/images/ufo_wordcloud.png" width="1000" title="UFO Word Cloud">
 </p>.  
-![Alt](./images/ufo_wordcloud.png)
+
 UFO sighting description wordcloud
 
 ![Alt](./images/bf_word_cloud.png)
