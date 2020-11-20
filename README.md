@@ -91,3 +91,10 @@ As a group, we decided to take the Top 3 states that reported Bigfoot observatio
 **Topic 3:** Appears to capture observations in the winter and likely in Washington because of the words “snow and mountain”
 
 **Topic 6:** This is an interesting topic because it picks up the words “zoobie”, “zoobies”, "baddour". After doing some research online, we found a Dr. Baddour who was a San Diego psychiatrist who called a family of bigfoot-like creatures "zoobies" (as noted in analysis above from our Naive Bayes model)
+
+### Conclusion
+
+Based on our assumptions we were correct that there were significantly more UFO sightings than Bigfoot sightings by a factor of 100x or so. Also, it’s pretty evident that the majority of the Bigfoot observations spiked during the fall season and then dropping off significantly in the winter. This finding was different from our observations as we thought that spotting Bigfoot in the snow would be easier due to the foot tracks and contrast with the white snow. The majority of the clusters of UFO sightings were concentrated closer to the West Coast of the U.S. while the Bigfoot sightings were much more spread out and evenly distributed. 
+
+With regard to the big difference between Class A and Class B & C Bigfoot sighting descriptions it appears that a number of the Class A sighting words included people’s names and descriptors. So maybe if someone has clout in the ‘Bigfoot world’ they would get a Class A observation. While the other Class B and Class C, were more descriptive of sounds and locations.
+
