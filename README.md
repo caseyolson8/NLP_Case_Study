@@ -21,7 +21,11 @@ Prior to starting our analysis, we wanted to gather our initial assumptions and 
 From the DataFrame object we are only interested in the 'html', which needs further parsing using BeautifulSoup.  
 
 - In the bigfoot dataset the following fields were extracted from HTML:  `Month, Year, County, State, Class, Observations`.  
-- In the UFO dataset the following fields were used in the analysis: `text', 'occurred', 'reported', 'posted', 'location', 'shape','duration'`
+- In the UFO dataset the following fields were used in the analysis: `text', 'occurred', 'reported', 'posted', 'location', 'shape','duration'` 
+  
+<p align="center">
+  <img align="center" src="/images/map_code.png" width="1000" title="geomapping">
+</p> 
 
 ### Exploratory Data Analysis 
 
@@ -36,7 +40,7 @@ That's where we get to this graph that I honestly have no idea what it's showing
   <a href="https://americanthinker.github.io/NLP_Case_Study/">
   <img align="center" src="/images/mapping.png" width="1000" title="National Distribution">
   </a>
-</p>. 
+</p> 
   
 **Map Findings:**
 - Largest numbers of sightings occur on the West Coast, with a surprising number in the Pacific Northwest.  
@@ -45,7 +49,7 @@ That's where we get to this graph that I honestly have no idea what it's showing
   
 <p align="center">
   <img align="center" src="/images/ufoshapes.png" width="1000" title="National Distribution">
-</p>.  
+</p>  
 
 **UFO Shape Distribution Findings:**
 - Would have been nice to correlate shapes with time, date, or location
