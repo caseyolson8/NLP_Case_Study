@@ -38,7 +38,7 @@ That's where we get to this graph that I honestly have no idea what it's showing
   </a>
 </p>. 
   
-  
+**Map Findings:**
 - Largest numbers of sightings occur on the West Coast, with a surprising number in the Pacific Northwest.  
 - Sightings are highly correlated with major metropolitan areas (except for New York City)
 - Surprised that there wasn't a greater concentration in New Mexico.   
@@ -46,28 +46,21 @@ That's where we get to this graph that I honestly have no idea what it's showing
 <p align="center">
   <img align="center" src="/images/ufoshapes.png" width="1000" title="National Distribution">
 </p>.  
-  
+
+**UFO Shape Distribution Findings:**
 - Would have been nice to correlate shapes with time, date, or location
-  
+
+**UFO Sighting Description Wordcloud**
+
 <p align="center">
   <img align="center" src="/images/ufo_wordcloud.png" height="600" width="600" title="UFO Word Cloud">
 </p>  
 
-UFO sighting description wordcloud
+**Bigfoot Sighting Description Wordcloud**
 
 <p align="center">
   <img align="center" src="/images/bf_word_cloud.png" height="600" width="600" title="BF Word Cloud">
 </p>   
-
-Bigfoot sighting description wordcloud
-
-### Data Cleaning Process
-
-* (Include synopsis of how we had to clean the data i.e. converting duration values to integers, converting datetime, converting locations, etc)
-
-### Machine Learning Algorithms 
-
-* NLP Algorithm discussion --- PCA or NMF for finding the most 'important features' or words of each type of report
 
 ### Multinomial Naive Bayes
 
