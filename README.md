@@ -48,11 +48,14 @@ As you can see there seems to be some sort of trend happening with gigantic spik
   
 <p align="center">
   <img align="center" src="/images/ufo_wordcloud.png" height="600" width="600" title="UFO Word Cloud">
-</p>.  
+</p>  
 
 UFO sighting description wordcloud
 
-![Alt](./images/bf_word_cloud.png)
+<p align="center">
+  <img align="center" src="/images/bf_word_cloud.png" height="600" width="600" title="BF Word Cloud">
+</p>   
+
 Bigfoot sighting description wordcloud
 
 ### Data Cleaning Process
