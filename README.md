@@ -30,7 +30,7 @@ From the DataFrame object we are only interested in the 'html', which needs furt
 As you can see there seems to be some sort of trend happening with gigantic spikes kept hitting points near the fall seasons of each year, and falls drastically during the winter season of each year. This made me want to check the seasonal trends throughout my data and see if I was right about which seasons saw the most bigfoot activity.
 
 ![Alt](./images/Seasonality_Dcomp.png)
-
+That's where we get to this graph that I honestly have no idea what it's showing besides what we could already see with the graph before hand. The fall seasons seem to have the most big foot sightings, winter has the lowest, and summer and spring have relatively similar big foot sightings.
 
 <p align="center">
   <a href="https://americanthinker.github.io/NLP_Case_Study/">
