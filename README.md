@@ -31,10 +31,10 @@ From the DataFrame object we are only interested in the 'html', which needs furt
 
 ![Alt](./images/ufo_timeseries.png)
 ![Alt](./images/bigfoot__sightings.png)
-As you can see there seems to be some sort of trend happening with gigantic spikes kept hitting points near the fall seasons of each year, and falls drastically during the winter season of each year. This made me want to check the seasonal trends throughout my data and see if I was right about which seasons saw the most bigfoot activity.
+As you can see there seems to be some sort of trend happening with gigantic spikes kept hitting points near the summer seasons of each year, and falls drastically during the winter season of each year. This made me want to check the seasonal trends throughout my data and see if I was right about which seasons saw the most bigfoot activity.
 
 ![Alt](./images/Seasonality_Dcomp.png)
-That's where we get to this graph that I honestly have no idea what it's showing besides what we could already see with the graph before hand. The fall seasons seem to have the most big foot sightings, winter has the lowest, and summer and spring have relatively similar big foot sightings.
+That's where we end up getting to this graph! As you can see, bigfoot likes to show himself more often in the Summer than any other season. He also seems to be hibernating in the winter, which explains why we see the large dip. Finally in spring and fall he's probably either just waking up so he doesn't go out as often, or maybe preparing for hibernation in the fall inside of Bigfoot cave.
 
 <p align="center">
   <a href="https://americanthinker.github.io/NLP_Case_Study/">
