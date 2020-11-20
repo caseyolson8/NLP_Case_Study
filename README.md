@@ -1,6 +1,6 @@
 # Analyzing Bigfoot and UFO Sightings in the United States
 
-![Alt](./images/bigfoot_ufo.png)
+![Alt](./bigfoot_ufo.png)
 
 ## Background and Objectives
 
