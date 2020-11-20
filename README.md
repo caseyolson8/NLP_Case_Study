@@ -69,7 +69,8 @@ Bigfoot sighting description wordcloud
 
 * NLP Algorithm discussion --- PCA or NMF for finding the most 'important features' or words of each type of report
 
-#### Multinomial Naive Bayes
+### Multinomial Naive Bayes
+
 Text from the bigfoot descriptions was fit to a Naive Bayes model to predict if a sighting was a Class A or Class B/C.  Class A sightings are sightings where "clear sightings in circumstances where misinterpretation or misidentification of other animals can be ruled out with greater confidence".  On splitting the data set between Classes the length of the descriptions were compared in a histogram to show each have similar lengths:
 ![Alt](./images/BF_observation_length_by_class.png)
 A test-train split was made (20/80) on the data set and the model performed with 80% accuracy on the test data.  After cleaning tokenizing the 75 words most likely to distinguish a Class A event were determined:
@@ -79,18 +80,16 @@ And Class B predictors:
 
 1970: A family of bigfoot-like creatures called "zoobies" was observed on multiple occasions by a San Diego psychiatrist named Dr. Baddour
 
-### ML Example 1 (include tuning / evaluation notes)
-
 ### Bigfoot Sighting Analysis Using Non-Negative Matrix Factorization:
 
 As a group, we decided to take the Top 3 states that reported Bigfoot observations (Washington, California and Florida) and analyze the descriptions using Non-Negative Matrix Factorization (NMF). So, we took all the observations from those 3 states (1,192 observations total) and created a “Bag of Words” matrix for our analysis after removing all of the desired stop-words. Our rows in the matrix were the individual Bigfoot observations and the columns were the individual words with associated term frequencies. We ran our NMF algorithm for a series of values of k and thought the value of k = 7 was the most enlightening (see table below):
 
 ![Alt](./images/nmf_results.png)
 
-Here are some interesting findings from the various topics that were modeled using NMF:
+**Here are some interesting findings from the various topics that were modeled using NMF:**
 
-Topic 4: Seems to correlate the observations with camping outside at night and waking up to an loud noise because you see the words “tent, camp, night, noise, heard, etc.”
+**Topic 4:** Seems to correlate the observations with camping outside at night and waking up to an loud noise because you see the words “tent, camp, night, noise, heard, etc.”
 
-Topic 3: Appears to capture observations in the winter and likely in Washington because of the words “snow and mountain”
+**Topic 3:** Appears to capture observations in the winter and likely in Washington because of the words “snow and mountain”
 
-Topic 6: This is an interesting topic because it picks up the words “zoobie”, “zoobies”, "baddour". After doing some research online, we found a Dr. Baddour who was a San Diego psychiatrist who called a family of bigfoot-like creatures "zoobies".
+**Topic 6:** This is an interesting topic because it picks up the words “zoobie”, “zoobies”, "baddour". After doing some research online, we found a Dr. Baddour who was a San Diego psychiatrist who called a family of bigfoot-like creatures "zoobies" (as noted in analysis above from our Naive Bayes model)
