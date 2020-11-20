@@ -31,6 +31,9 @@ As you can see there seems to be some sort of trend happening with gigantic spik
   <img align="center" src="/images/mapping.png" width="1000" title="National Distribution">
   </a>
 </p> 
+- Largest numbers of sightings occur on the West Coast, with a surprising number in the Pacific Northwest.  
+- Sightings are highly correlated with major metropolitan areas (except for New York City)
+- Surprised that there wasn't a greater concentration in New Mexico. 
 
 ![Alt](./images/ufo_wordcloud.png)
 UFO sighting description wordcloud
