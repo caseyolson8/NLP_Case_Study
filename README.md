@@ -18,7 +18,7 @@ Prior to starting our analysis, we wanted to gather our initial assumptions and 
 ### Raw Data Review
 
 ![Alt](./images/bigfoot_import_raw.png)
-From the DataFrame object we are only interested in the 'html', which needs further parsing using beautifulsoup.  
+From the DataFrame object we are only interested in the 'html', which needs further parsing using BeautifulSoup.  
 
 - In the bigfoot dataset the following fields were extracted from HTML:  `Month, Year, County, State, Class, Observations`.  
 - In the UFO dataset the following fields were used in the analysis: `text', 'occurred', 'reported', 'posted', 'location', 'shape','duration'`
