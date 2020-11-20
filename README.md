@@ -62,6 +62,16 @@ Text from the bigfoot descriptions was fit to a Naive Bayes model to predict if 
 
 ### ML Example 1 (include tuning / evaluation notes)
 
-### ML Example 2 (include tuning / evaluation notes)
+### Bigfoot Sighting Analysis Using Non-Negative Matrix Factorization:
 
-### Conclusion 
+As a group, we decided to take the Top 3 states that reported Bigfoot observations (Washington, California and Florida) and analyze the descriptions using Non-Negative Matrix Factorization (NMF). So, we took all the observations from those 3 states (1,192 observations total) and created a “Bag of Words” matrix for our analysis after removing all of the desired stop-words. Our rows in the matrix were the individual Bigfoot observations and the columns were the individual words with associated term frequencies. We ran our NMF algorithm for a series of values of k and thought the value of k = 7 was the most enlightening (see table below):
+
+![Alt](./images/nmf_results.png)
+
+Here are some interesting findings from the various topics that were modeled using NMF:
+
+Topic 4: Seems to correlate the observations with camping outside at night and waking up to an loud noise because you see the words “tent, camp, night, noise, heard, etc.”
+
+Topic 3: Appears to capture observations in the winter and likely in Washington because of the words “snow and mountain”
+
+Topic 6: This is an interesting topic because it picks up the words “zoobie”, “zoobies”, "baddour". After doing some research online, we found a Dr. Baddour who was a San Diego psychiatrist who called a family of bigfoot-like creatures "zoobies".
