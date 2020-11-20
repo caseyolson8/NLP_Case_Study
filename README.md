@@ -72,6 +72,7 @@ Text from the bigfoot descriptions was fit to a Naive Bayes model to predict if 
 ![Alt](./images/BF_observation_length_by_class.png)
 A test-train split was made (20/80) on the data set and the model performed with 80% accuracy on the test data.  After cleaning tokenizing the 75 words most likely to distinguish a Class A event were determined:
 ![Alt](./images/hash_cloud_A_predictors.png)
+- "Before Kenny Collins moved to Estes Park in 2010, there was no talk of monsters.  But when Kenny Collins arrived, he looked at the same land as everyone else and said something different, even if only to himself."  Said Collins: “There is more to this place than meets the eye. Bigfoot lives in these hills.”
 And Class B predictors:
 ![Alt](./images/hash_cloud_B_predictors.png)
 
