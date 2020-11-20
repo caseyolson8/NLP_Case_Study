@@ -35,11 +35,11 @@ Prior to starting our analysis, we wanted to gather our initial assumptions and 
 
 ### Machine Learning Algorithms 
 
-* NLP Algorithm discussion --- Naive Bayes for predicting the classification of each type of report 
 * NLP Algorithm discussion --- PCA or NMF for finding the most 'important features' or words of each type of report
+* NLP Algorithm discussion --- Naive Bayes for predicting the classification of each type of report 
 
 ### ML Example 1 (include tuning / evaluation notes)
 
 ### ML Example 2 (include tuning / evaluation notes)
 
-## Conclusion 
+### Conclusion 
