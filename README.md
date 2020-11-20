@@ -41,6 +41,7 @@ As you can see there seems to be some sort of trend happening with gigantic spik
   <img align="center" src="/images/ufoshapes.png" width="1000" title="National Distribution">
 </p>.  
   
+- Would have been nice to correlate shapes with time, date, or location
   
 ![Alt](./images/ufo_wordcloud.png)
 UFO sighting description wordcloud
