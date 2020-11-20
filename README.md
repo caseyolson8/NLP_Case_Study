@@ -19,15 +19,20 @@ Prior to starting our analysis, we wanted to gather our initial assumptions and 
 
 ### Raw Data Review
 
-* (Insert Screenshot of Data tables for each and describe the features and the big differences between the two datasets)
+![Alt](./images/bigfoot_import_raw.png)
+From the DataFrame object we are only interested in the 'html', which needs further parsing using beautifulsoup.  In the bigfoot dataset the following fields were extracted from HTML: ```Month, Year, County, State, Class, Observations```.  
 
 ### Exploratory Data Analysis 
 
-* (Insert simple histogram plot for total UFO sightings vs. Bigfoot sightings -- 2 bars)
-* (Insert Histogram Plot of UFO vs. Bigfoot Sightings over the years -- stacked bars if possible -- Do we need to normalize the data?)
-* (Insert U.S. Bubble Map Plot showing the clusters of UFO / Bigfoot sightings on same Map -- Different colors for each type)
-* (Insert Seasonality Plots for UFO and Bigfoot --- Side by Side plot or on same axes?)
-* (Insert in Wordclouds for each type of sighting)
+![Alt](./images/ufo_timeseries.png)
+![Alt](./images/bigfoot__sightings.png)
+As you can see there seems to be some sort of trend happening with gigantic spikes kept hitting points near the fall seasons of each year, and falls drastically during the winter season of each year. This made me want to check the seasonal trends throughout my data and see if I was right about which seasons saw the most bigfoot activity.
+
+![Alt](./images/ufo_wordcloud.png)
+UFO sighting description wordcloud
+
+![Alt](./images/bf_word_cloud.png)
+Bigfoot sighting description wordcloud
 
 ### Data Cleaning Process
 
@@ -36,7 +41,9 @@ Prior to starting our analysis, we wanted to gather our initial assumptions and 
 ### Machine Learning Algorithms 
 
 * NLP Algorithm discussion --- PCA or NMF for finding the most 'important features' or words of each type of report
-* NLP Algorithm discussion --- Naive Bayes for predicting the classification of each type of report 
+
+#### Multinomial Naive Bayes
+Text from the bigfoot descriptions was fit to a Naive Bayes model to predict if a sighting was a 'Class A' or 'Class B/C' sighting
 
 ### ML Example 1 (include tuning / evaluation notes)
 
