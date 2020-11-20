@@ -1,4 +1,4 @@
-# Analyzing Bigfoot and UFO Sightings in the United States
+# <div align="center"> Analyzing Bigfoot and UFO Sightings in the United States
 
 ![Alt](./bigfoot_ufo.png)
 
