@@ -29,7 +29,7 @@ From the DataFrame object we are only interested in the 'html', which needs furt
 ![Alt](./images/bigfoot__sightings.png)
 As you can see there seems to be some sort of trend happening with gigantic spikes kept hitting points near the fall seasons of each year, and falls drastically during the winter season of each year. This made me want to check the seasonal trends throughout my data and see if I was right about which seasons saw the most bigfoot activity.
 
-![Alt](./images/Seasonality_DComp.png)
+![Alt](./images/Seasonality_Dcomp.png)
 
 
 <p align="center">
