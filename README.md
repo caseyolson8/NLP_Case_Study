@@ -1,3 +1,5 @@
+- a single day group (4-person) case-study in the Galvanize program
+
 # <div align="center"> Analyzing Bigfoot and UFO Sightings in the United States
 
 ![Alt](./images/bigfoot_ufo.png)
